@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.descuentos {
+  height: 30px;
+  background-color: #1cd1b0;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  color: #333333;
+}
+.texto-descuentos {
+  font-size: 1rem;
+}
+.header-contenido {
+  height: 85px;
+  background-color: #00669f;
+  box-shadow: 10px 5px 10px black;
+  padding-left: 20px;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-texto {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+.logo-tienda {
+  width: 99px;
+  height: 74px;
+}
+
+.black-margin {
+  height: 40px;
+  height: 2.5rem;
+  background-color: #001d2d;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  gap: 12px;
+  padding: 0.3rem;
+}
+.navbar li {
+  list-style: none;
+
+  justify-items: center;
+}
+
+.navbar a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669f;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 190%;
+  left: 90%;
+  z-index: 3;
+}
+
+.plus p {
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+}
+
+.card-container {
+  height: 764.15px;
+  width: 400px;
+  margin: 2rem 1rem;
+  position: relative;
+}
+
+.card-top {
+  height: 300px;
+}
+
+.card-main-image {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  border-top-left-radius: 1.7rem;
+  border-top-right-radius: 1.7rem;
+}
+
+.card-profile-image {
+  width: 15vw;
+  position: absolute;
+  right: 135px;
+  right: 50%;
+  top: 35%;
+  transform: translate(50%, -50%);
+}
+
+.card-profile-image {
+  width: 15vw;
+  position: absolute;
+}
+
+.cards-content {
+  height: 420px;
+  background-color: #f3f3f3;
+  padding: 7%;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-names {
+  margin-top: 2.8rem;
+  font-size: 2rem;
+}
+.cards-text {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cards-button {
+  background-color: #00669f;
+  padding: 0.8rem 2.5rem;
+  color: white;
+  position: absolute;
+  bottom: 4rem;
+  transform: translateX(-50%);
+}
+
+.heart {
+  font-size: 2rem;
+  color: red;
+  position: absolute;
+  left: 1.2rem;
+  top: 1.2rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin-top: 7%;
+  height: 51px;
+  font-size: 17px;
+  background-color: #00669f;
+  padding: 0 20px;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-color: #00669f;
+  color: #f3f3f3;
+  padding: 6rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.login,
+input {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: none;
+}
+
+.login label {
+  margin-top: 0.4rem;
+}
+.opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+.submit-button {
+  width: 10rem;
+  height: 2.5rem;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: #1cd1b0;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  border: none;
+}
+
+.titulo-form {
+  width: 100%;
+}
+.titulo-form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.register {
+  width: 58vw;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #00669f;
+  color: #e5e5e5;
+  padding: 3rem;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.register input {
+  width: 12rem;
+}
+
+.register select {
+  display: flex;
+  height: 2rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.origen {
+  width: 12rem;
+}
+.foto {
+  display: flex;
+  flex-direction: column;
+  /* width: 12rem; */
+}
+
+.input-container label {
+  margin-bottom: 0.3rem;
+}
+
+.checkbox-container {
+  height: fit-content;
+  width: 12rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container label {
+  margin-right: 7rem;
+  font-size: 0.8rem;
+}
+
+input[type=checkbox] {
+  
+  margin-top: 0.5rem;
+  border-radius: 15px;
+  margin-bottom: -16px;
+ 
+  width: 100%;
+ 
+}
+
+
+@media (max-width: 640px) {
+  .card-container {
+    margin-top: 40px;
+  }
+
+  .hero-names {
+    font-size: 1.5rem;
+  }
+  .cards-text {
+    text-align: left;
+  }
+
+  .cards-text {
+    -webkit-line-clamp: 3;
+  }
+
+  .card-profile-image {
+    width: 25vw;
+  }
+
+  .plus {
+    top: 200%;
+    right: 10%;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+}
