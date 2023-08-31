@@ -201,6 +201,10 @@ input {
 .login label {
   margin-top: 0.4rem;
 }
+
+.logged label {
+  flex-direction: row;
+}
 .opciones {
   display: flex;
   flex-direction: column;
@@ -281,16 +285,11 @@ input {
   font-size: 0.8rem;
 }
 
-input[type=checkbox] {
-  
+input[type='checkbox'] {
   margin-top: 0.5rem;
   border-radius: 15px;
   margin-bottom: -16px;
- 
-  width: 100%;
- 
 }
-
 
 @media (max-width: 640px) {
   .card-container {
